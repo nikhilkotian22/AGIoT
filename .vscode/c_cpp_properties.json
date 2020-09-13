@@ -1,0 +1,36 @@
+{
+    "env" : {
+        "myDefaultIncludePath": [
+            "${workspaceRoot}",
+            "${workspaceRoot}/inc",
+            "${workspaceRoot}/deps/hermes-base-cpp/build/install/x86_64/include"
+        ],
+        "myCompilerPath": "/usr/bin/g++-4.9"
+    },
+    "configurations": [
+        {
+            "name": "Linux",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [ 
+                "${myDefaultIncludePath}", 
+                "/usr/include",
+                "/usr/include/c++/4.8",
+                "/usr/lib/gcc/x86_64-linux-gnu/4.8/include/",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include/x86_64-linux-gnu/c++",
+                "/usr/include/x86_64-linux-gnu/c++/4.8"
+            ],
+            "macFrameworkPath": [ ],
+            "defines": [ ],
+            "forcedInclude": [ ],
+            "compilerPath": "/usr/bin/clang",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "browse": {
+                "path": [ "${workspaceFolder}" ],
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}

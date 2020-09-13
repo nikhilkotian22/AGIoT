@@ -1,0 +1,60 @@
+
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "command": "sh",
+    "args": ["-c"],
+    "options": {
+        "cwd": "${workspaceRoot}/build"
+    },
+    "tasks": [
+        {
+            "label": "build-x86_64",
+            "type": "shell",
+            "command": "${workspaceRoot}/build/build-x86_64.sh",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "build-arm32v7",
+            "type": "shell",
+            "command": "${workspaceRoot}/build/build-arm32v7.sh",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "build-x86_64_ut",
+            "type": "shell",
+            "command": "${workspaceRoot}/build/build-x86_64.sh -u",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
+            "label": "prepare_local_debug_session",
+            "type": "shell",
+            "command": "iotedgehubdev start",
+            
+        },
+        {
+            "label": "cleanup_local_debug_session",
+            "type": "shell",
+            "command": "iotedgehubdev stop",
+        }
+    ]
+}
