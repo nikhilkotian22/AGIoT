@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC --std=c++11 -fPIC  -g  -shared -Wl,-soname,libflow_sensor.so -o libflow_sensor.so CMakeFiles/flow_sensor.dir/src/FlowSensor.cpp.o CMakeFiles/flow_sensor.dir/src/flow_velocity.cpp.o  -L/workspace/hbm-vscode-remote/deps/hermes-base-cpp/build/install/x86_64/lib  -L/workspace/hbm-vscode-remote/deps/hermes-base-cpp/test/gtest/lib 

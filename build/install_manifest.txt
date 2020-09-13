@@ -1,0 +1,4 @@
+/workspace/hbm-vscode-remote/build/target/x86_64/docker/module.json
+/workspace/hbm-vscode-remote/deps/hermes-base-cpp/module.json
+/workspace/hbm-vscode-remote/build/target/x86_64/docker/lib/libflow_sensor.so
+/workspace/hbm-vscode-remote/deps/hermes-base-cpp/build/install/x86_64/lib/libflow_sensor.so

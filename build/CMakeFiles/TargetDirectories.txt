@@ -1,0 +1,16 @@
+/workspace/hbm-vscode-remote/build/CMakeFiles/list_install_components.dir
+/workspace/hbm-vscode-remote/build/CMakeFiles/install.dir
+/workspace/hbm-vscode-remote/build/CMakeFiles/rebuild_cache.dir
+/workspace/hbm-vscode-remote/build/CMakeFiles/edit_cache.dir
+/workspace/hbm-vscode-remote/build/CMakeFiles/flow_sensor.dir
+/workspace/hbm-vscode-remote/build/CMakeFiles/install/strip.dir
+/workspace/hbm-vscode-remote/build/CMakeFiles/install/local.dir
+/workspace/hbm-vscode-remote/build/CMakeFiles/test.dir
+/workspace/hbm-vscode-remote/build/tests/CMakeFiles/list_install_components.dir
+/workspace/hbm-vscode-remote/build/tests/CMakeFiles/install.dir
+/workspace/hbm-vscode-remote/build/tests/CMakeFiles/rebuild_cache.dir
+/workspace/hbm-vscode-remote/build/tests/CMakeFiles/edit_cache.dir
+/workspace/hbm-vscode-remote/build/tests/CMakeFiles/install/strip.dir
+/workspace/hbm-vscode-remote/build/tests/CMakeFiles/install/local.dir
+/workspace/hbm-vscode-remote/build/tests/CMakeFiles/flow_sensorTest.dir
+/workspace/hbm-vscode-remote/build/tests/CMakeFiles/test.dir
